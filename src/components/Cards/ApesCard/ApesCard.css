@@ -8,9 +8,12 @@
   width: 100%;
 }
 .ape-card > img {
+  /* width: 374px; */
   width: 100%;
+  height: 373px;
   border-radius: 12px;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .ape-card-title {
@@ -53,7 +56,14 @@
   .ape-insights-left img {
     width: 15px;
   }
+
+  .ape-card > img {
+    height: 250px;
+  }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 500px) {
+  .ape-card > img {
+    height: 220px;
+  }
 }

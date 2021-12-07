@@ -11,6 +11,9 @@ import ape7 from "assets/images/Desktop/ape-7.png";
 import ape8 from "assets/images/Desktop/ape-8.png";
 import Button from "components/Button/Button";
 
+import teamImg1 from "assets/images/Desktop/team-img-2.png";
+import abcImg from "assets/images/Desktop/abc.png";
+
 function Launch() {
   return (
     <div className="container-wrapper">
@@ -31,10 +34,10 @@ function Launch() {
 
       <div className="mb-100px">
         <div className="apes-cards mb-100px">
-          <ApesCard img={ape1} />
-          <ApesCard img={ape2} />
-          <ApesCard img={ape3} />
-          <ApesCard img={ape4} />
+          <ApesCard img={teamImg1} />
+          <ApesCard img={abcImg} />
+          <ApesCard img={teamImg1} />
+          <ApesCard img={abcImg} />
           {/* <ApesCard img={ape5} />
           <ApesCard img={ape6} />
           <ApesCard img={ape7} />

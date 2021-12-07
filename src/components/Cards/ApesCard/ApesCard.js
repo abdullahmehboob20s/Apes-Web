@@ -8,7 +8,7 @@ function ApesCard({ img }) {
     <div className="ape-card">
       <img src={img} alt="" />
 
-      <div className="ape-card-title">
+      {/* <div className="ape-card-title">
         <p className="fs-26px darkest-blue font-circular-bold">#698</p>
         <p className="fs-16px darkest-blue font-circular-bold">CK_1337_VAULT</p>
       </div>
@@ -24,7 +24,7 @@ function ApesCard({ img }) {
           <p className="fs-16px font-circular-bold">35.72</p>
         </div>
         <p className="fs-16px darkest-blue">4 Days left</p>
-      </div>
+      </div> */}
     </div>
   );
 }
