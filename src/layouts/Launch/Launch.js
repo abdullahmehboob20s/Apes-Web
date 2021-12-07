@@ -35,10 +35,10 @@ function Launch() {
           <ApesCard img={ape2} />
           <ApesCard img={ape3} />
           <ApesCard img={ape4} />
-          <ApesCard img={ape5} />
+          {/* <ApesCard img={ape5} />
           <ApesCard img={ape6} />
           <ApesCard img={ape7} />
-          <ApesCard img={ape8} />
+          <ApesCard img={ape8} /> */}
         </div>
         {/* <div className="text-center">
           <Button title="See All Apes" />

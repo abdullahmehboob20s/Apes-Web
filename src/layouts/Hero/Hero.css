@@ -1,8 +1,9 @@
 .hero-wrapper {
   background: url(../../assets/images/Desktop/snow.png);
   background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 1700px;
+  background-repeat: repeat-x;
+  /* max-width: 1700px; */
+  background-position-y: bottom;
   margin: 0 auto;
 }
 

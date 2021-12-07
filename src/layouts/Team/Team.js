@@ -22,12 +22,12 @@ function Team() {
         <div className="mb-80px">
           <div className="team-titles">
             <p className="fs-56px font-circular-bold red text-center mb-20px ">
-              Meet Our Team
+              Meet The Team
             </p>
-            <p className="fs-22px darkest-blue text-center">
+            {/* <p className="fs-22px darkest-blue text-center">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et
-            </p>
+            </p> */}
           </div>
         </div>
 
