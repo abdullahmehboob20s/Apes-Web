@@ -122,7 +122,9 @@ const Navbar = (props) => {
             </Link>
           </div>
           <div className="nav-btns">
-            <img src={Twitter} alt="" />
+            <a href="https://twitter.com/" target="_blank">
+              <img src={Twitter} alt="" />
+            </a>
 
             <div className="hamburger" onClick={() => setopen(!open)}>
               <img src={hamburger} alt="" />
