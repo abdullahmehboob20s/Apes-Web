@@ -1,0 +1,37 @@
+.hero-wrapper {
+  background: url(../../assets/images/Desktop/snow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 40px 0;
+  position: relative;
+}
+
+.hero-left {
+  flex: 1;
+}
+.hero-right {
+  flex: 1;
+}
+.hero-right img {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px 0;
+  }
+
+  .hero-wrapper {
+    background: none;
+  }
+}

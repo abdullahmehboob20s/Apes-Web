@@ -1,0 +1,48 @@
+.team-card {
+  padding: 53px 40px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-head > img {
+  width: 131px;
+  height: 136px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .team-card {
+    padding: 30px 30px;
+    gap: 28px;
+  }
+
+  .card-head > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-head {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team-card {
+    padding: 30px 25px;
+    gap: 20px;
+  }
+
+  .card-head > img {
+    width: 90px;
+    height: 90px;
+  }
+}

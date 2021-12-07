@@ -1,0 +1,31 @@
+.team-titles {
+  max-width: 577px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 50px;
+  display: none;
+}
+
+.slider-btns button {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .slider-btns {
+    display: flex;
+  }
+}
