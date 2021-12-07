@@ -10,7 +10,7 @@
 .ape-card > img {
   /* width: 374px; */
   width: 100%;
-  height: 373px;
+  /* height: 373px; */
   border-radius: 12px;
   overflow: hidden;
   object-fit: cover;
@@ -57,13 +57,13 @@
     width: 15px;
   }
 
-  .ape-card > img {
+  /* .ape-card > img {
     height: 250px;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
-  .ape-card > img {
+  /* .ape-card > img {
     height: 220px;
-  }
+  } */
 }
