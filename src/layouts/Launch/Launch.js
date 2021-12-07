@@ -40,9 +40,9 @@ function Launch() {
           <ApesCard img={ape7} />
           <ApesCard img={ape8} />
         </div>
-        <div className="text-center">
+        {/* <div className="text-center">
           <Button title="See All Apes" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
