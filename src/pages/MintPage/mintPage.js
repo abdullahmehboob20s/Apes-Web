@@ -1,9 +1,9 @@
 import React from "react";
 import "./MintPage.css";
-import Mint_Lower_Lights from "assets/images/Desktop/Mint_Lower_Lights.png";
+import Mint_Lower_Lights from "assets/images/Desktop/Mint_Lower_Lights.svg";
 import Mint_upper_Lights from "assets/images/Desktop/Mint_upper_Lights.svg";
 import mintMonkeyLeft from "assets/images/Desktop/mint-monkey-left.svg";
-import mintMonkeyRight from "assets/images/Desktop/mint-monkey-right.png";
+import mintMonkeyRight from "assets/images/Desktop/mint-monkey-right.svg";
 
 import { useFormik } from "formik";
 
