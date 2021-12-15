@@ -1,6 +1,7 @@
 import React from "react";
 import "./MintPage.css";
 import Mint_Lower_Lights from "assets/images/Desktop/Mint_Lower_Lights.svg";
+import Mint_Lower_Lights_rotated from "assets/images/Desktop/Mint_Lower_Lights-rotated.svg";
 import Mint_upper_Lights from "assets/images/Desktop/Mint_upper_Lights.svg";
 import mintMonkeyLeft from "assets/images/Desktop/mint-monkey-left.svg";
 import mintMonkeyRight from "assets/images/Desktop/mint-monkey-right.svg";
@@ -38,14 +39,14 @@ const MintPage = () => {
         <div className="mint-page-form">
           <img
             className="mint-page-form-img-lower"
-            src={Mint_Lower_Lights}
+            src={Mint_Lower_Lights_rotated}
             alt=""
           />
-          <img
+          {/* <img
             className="mint-page-form-img-upper"
             src={Mint_upper_Lights}
             alt=""
-          />
+          /> */}
 
           <form action="" className="mb-5px" onSubmit={formik.handleSubmit}>
             <div className="mint-page-form-btn-wrapper">
