@@ -37,11 +37,11 @@ const MintPage = () => {
     <div className="mint-page-wrapper">
       <div className="container-wrapper">
         <div className="mint-page-form">
-          <img
+          {/* <img
             className="mint-page-form-img-lower"
             src={Mint_Lower_Lights_rotated}
             alt=""
-          />
+          /> */}
           {/* <img
             className="mint-page-form-img-upper"
             src={Mint_upper_Lights}
