@@ -9,18 +9,28 @@ import MyApes from "./pages/MyApesPage/myApesPage";
 
 // navbar
 import Navbar from "./components/Navbar/navbar";
+import AppesCollection from "pages/AppesCollection/AppesCollection";
 
 function App() {
   return (
     <Router>
       <React.Fragment>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/mint" element={<Mint />} />
-          <Route path="/myApes" element={<MyApes />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <div
+          style={{
+            minHeight: "100vh",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/apes-collection" element={<AppesCollection />} />
+            <Route path="/mint" element={<Mint />} />
+            <Route path="/myApes" element={<MyApes />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </div>
       </React.Fragment>
     </Router>
   );

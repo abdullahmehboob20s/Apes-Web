@@ -49,6 +49,19 @@
   width: 24px;
 }
 
+.ape-card-traits {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.ape-card-trait {
+  border: 1px solid #c4c4c4;
+  border-radius: 9px;
+  padding: 10px 18px;
+}
+
 @media (max-width: 1000px) {
   .ape-card-verified-user img {
     width: 13px;
@@ -57,13 +70,26 @@
     width: 15px;
   }
 
+  .ape-card-trait {
+    padding: 8px 10px;
+  }
   /* .ape-card > img {
     height: 250px;
   } */
 }
 
 @media (max-width: 500px) {
-  /* .ape-card > img {
-    height: 220px;
-  } */
+  .ape-card-traits {
+    gap: 0.3rem;
+  }
+  .ape-card-trait {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 350px) {
+  .ape-card-trait {
+    padding: 5px 7px;
+    font-size: 8.5px;
+  }
 }

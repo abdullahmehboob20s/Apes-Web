@@ -103,6 +103,9 @@
 .gray {
   color: var(--gray);
 }
+.dark-gray {
+  color: #404040;
+}
 .darkest-blue {
   color: var(--darkest-blue);
 }

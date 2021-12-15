@@ -108,7 +108,7 @@ const Navbar = (props) => {
             <Link className="fs-18px gray" to="/">
               Home
             </Link>
-            <Link className="fs-18px gray" to="/why-us">
+            <Link className="fs-18px gray" to="/apes-collection">
               Why Us
             </Link>
             <Link className="fs-18px gray" to="/our-process">
@@ -117,7 +117,7 @@ const Navbar = (props) => {
             <Link className="fs-18px gray" to="/faq">
               FAQ
             </Link>
-            <Link className="fs-18px gray" to="/contatc-us">
+            <Link className="fs-18px gray" to="/mint">
               Contact Us
             </Link>
           </div>
